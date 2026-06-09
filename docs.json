@@ -21,31 +21,6 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Onboarding",
-        "groups": [
-          {
-            "group": "Welcome",
-            "pages": ["index"]
-          },
-          {
-            "group": "Your first days",
-            "pages": [
-              "onboarding/first-day",
-              "onboarding/first-week",
-              "onboarding/meet-the-team"
-            ]
-          },
-          {
-            "group": "Tools & access",
-            "pages": [
-              "onboarding/tools/laptop-setup",
-              "onboarding/tools/account-access",
-              "onboarding/tools/vpn-setup"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "HR & People",
         "groups": [
           {
