@@ -19,28 +19,227 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Overview",
-            "pages": ["hr-people/index"]
-          },
-          {
-            "group": "Benefits & time off",
-            "pages": [
-              "hr-people/benefits",
-              "hr-people/time-off"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "hr-people/index"
+                ]
+              },
+              {
+                "group": "Benefits & time off",
+                "pages": [
+                  "hr-people/benefits",
+                  "hr-people/time-off"
+                ]
+              },
+              {
+                "group": "Growth & pay",
+                "pages": [
+                  "hr-people/performance-reviews",
+                  "hr-people/compensation/index",
+                  "hr-people/compensation/salary-bands",
+                  "hr-people/compensation/equity-overview"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "tabs": [
           {
-            "group": "Growth & pay",
-            "pages": [
-              "hr-people/performance-reviews",
-              "hr-people/compensation/index",
-              "hr-people/compensation/salary-bands",
-              "hr-people/compensation/equity-overview"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Aperçu",
+                "pages": [
+                  "fr/hr-people/index.mdx"
+                ]
+              },
+              {
+                "group": "Avantages et congés",
+                "pages": [
+                  "fr/hr-people/benefits.mdx",
+                  "fr/hr-people/time-off.mdx"
+                ]
+              },
+              {
+                "group": "Évolution et rémunération",
+                "pages": [
+                  "fr/hr-people/performance-reviews.mdx",
+                  "fr/hr-people/compensation/index.mdx",
+                  "fr/hr-people/compensation/salary-bands.mdx",
+                  "fr/hr-people/compensation/equity-overview.mdx"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "de",
+        "tabs": [
+          {
+            "tab": "Dokumentation",
+            "groups": [
+              {
+                "group": "Übersicht",
+                "pages": [
+                  "de/hr-people/index.mdx"
+                ]
+              },
+              {
+                "group": "Leistungen & Urlaub",
+                "pages": [
+                  "de/hr-people/benefits.mdx",
+                  "de/hr-people/time-off.mdx"
+                ]
+              },
+              {
+                "group": "Entwicklung & Vergütung",
+                "pages": [
+                  "de/hr-people/performance-reviews.mdx",
+                  "de/hr-people/compensation/index.mdx",
+                  "de/hr-people/compensation/salary-bands.mdx",
+                  "de/hr-people/compensation/equity-overview.mdx"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "tabs": [
+          {
+            "tab": "Documentación",
+            "groups": [
+              {
+                "group": "Resumen",
+                "pages": [
+                  "es/hr-people/index.mdx"
+                ]
+              },
+              {
+                "group": "Beneficios y permisos",
+                "pages": [
+                  "es/hr-people/benefits.mdx",
+                  "es/hr-people/time-off.mdx"
+                ]
+              },
+              {
+                "group": "Desarrollo y retribución",
+                "pages": [
+                  "es/hr-people/performance-reviews.mdx",
+                  "es/hr-people/compensation/index.mdx",
+                  "es/hr-people/compensation/salary-bands.mdx",
+                  "es/hr-people/compensation/equity-overview.mdx"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pt",
+        "tabs": [
+          {
+            "tab": "Documentação",
+            "groups": [
+              {
+                "group": "Visão geral",
+                "pages": [
+                  "pt/hr-people/index.mdx"
+                ]
+              },
+              {
+                "group": "Benefícios e folgas",
+                "pages": [
+                  "pt/hr-people/benefits.mdx",
+                  "pt/hr-people/time-off.mdx"
+                ]
+              },
+              {
+                "group": "Crescimento e remuneração",
+                "pages": [
+                  "pt/hr-people/performance-reviews.mdx",
+                  "pt/hr-people/compensation/index.mdx",
+                  "pt/hr-people/compensation/salary-bands.mdx",
+                  "pt/hr-people/compensation/equity-overview.mdx"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "tabs": [
+          {
+            "tab": "文档",
+            "groups": [
+              {
+                "group": "概述",
+                "pages": [
+                  "zh/hr-people/index.mdx"
+                ]
+              },
+              {
+                "group": "福利与假期",
+                "pages": [
+                  "zh/hr-people/benefits.mdx",
+                  "zh/hr-people/time-off.mdx"
+                ]
+              },
+              {
+                "group": "发展与薪酬",
+                "pages": [
+                  "zh/hr-people/performance-reviews.mdx",
+                  "zh/hr-people/compensation/index.mdx",
+                  "zh/hr-people/compensation/salary-bands.mdx",
+                  "zh/hr-people/compensation/equity-overview.mdx"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ru",
+        "tabs": [
+          {
+            "tab": "Документация",
+            "groups": [
+              {
+                "group": "Обзор",
+                "pages": [
+                  "ru/hr-people/index.mdx"
+                ]
+              },
+              {
+                "group": "Льготы и отпуска",
+                "pages": [
+                  "ru/hr-people/benefits.mdx",
+                  "ru/hr-people/time-off.mdx"
+                ]
+              },
+              {
+                "group": "Рост и оплата",
+                "pages": [
+                  "ru/hr-people/performance-reviews.mdx",
+                  "ru/hr-people/compensation/index.mdx",
+                  "ru/hr-people/compensation/salary-bands.mdx",
+                  "ru/hr-people/compensation/equity-overview.mdx"
+                ]
+              }
             ]
           }
         ]
